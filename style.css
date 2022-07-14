@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.heder-section {
+    width: 100%;
+    height: 1000px;
+    background-image: url(images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.top-banar-collor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(128, 128, 128, 0.5), black);
+}
+
+.nav-bar {
+    display: flex;
+    background-color: rgb(16, 16, 16, 0.5);
+
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo h1 {
+
+    margin-left: 150px;
+    padding: 30px 0;
+
+}
+
+.logo h1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+nav {
+    widows: 50%;
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+nav ul {
+
+    display: flex;
+
+}
+
+nav ul li {
+    margin-left: 40px;
+    padding: 30px 20px;
+
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+    transition: 0.8s;
+}
+
+.heder-text {
+    color: white;
+    text-align: center;
+    padding: 300px;
+}
+
+.heder-text h1 {
+    font-size: 70px;
+}
+
+.heder-text p {
+    font-size: 20px;
+    margin: 0px 100px;
+    padding: 20px;
+
+}
+
+#batone {
+    margin-top: 30px;
+}
+
+#batone-degine {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(250, 109, 85);
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+
+#batone-degine:hover {
+    background-color: rgb(248, 151, 133);
+    color: white;
+    border: none;
+}
+
+.section-2 {
+    width: 100%;
+    background-color: #DAD8D3;
+    padding: 100px 0px;
+    overflow: hidden;
+
+
+}
+
+.donate-today {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.donate-today h1 {
+    padding-top: 70px;
+    font-size: 50px;
+
+}
+
+.donate-today p {
+    font-size: 20px;
+    margin: auto;
+    padding: 10px 0 30px 0;
+    width: 60%;
+}
+
+.donate-amount {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    overflow: hidden;
+}
+
+.donate-amount p {
+
+    margin: 50px 20px;
+    padding: 20px 30px;
+
+    font-size: 40px;
+    font-weight: 700;
+    color: gray;
+    overflow: hidden;
+
+}
+
+.donate-amount p:hover {
+    color: tomato;
+    overflow: hidden;
+
+}
+
+
+
+
+.from-class {
+    border-bottom: 1px solid #adacac;
+    width: 65%;
+    margin: auto;
+}
+
+
+
+#from {
+    font-size: 20px;
+    border: none;
+    background-color: #DAD8D3;
+    text-align: center;
+
+}
+
+
+
+
+input {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #adacac;
+}
